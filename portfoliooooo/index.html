@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4e96f49cc5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Saksham's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#"><h1 class="nav-branding">Saksham Wadhawan</h1></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#Contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hambuger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- Headline -->
+
+    <section class="container">
+      <div class="headline-bg headline">
+        <div class="divider">
+          <div>
+            <img class="profile-image" src="images/kaamu.jpg" alt="" />
+            <h1 class="headline-paragraph">Hi,👋 I'm Saksham</h1>
+          </div>
+          <div class="divider1">
+            <h1 class="headline-main">
+                Building <br />
+                websites, financial tools, <br />
+                and giving you investment advice right when you need it.
+            </h1>
+          </div>
+        </div>
+
+        <p class="headline-paragraph">
+            A Computer Science student with a specialization in Business Systems.
+            I’m passionate about Web Development and Financial Analysis, with a
+            focus on creating intuitive user experiences and financial solutions.
+          </p>
+
+        <h2 class="headline-connect">LET'S CONNECT</h2>
+
+        <ul class="headline-icons">
+       
+          <li>
+            <a href="https://www.linkedin.com/in/saksham-wadhawan-666805173/">
+              <i class="fa-xl"
+                ><img src="./images/icon-1.svg" alt="linkedin"
+              /></i>
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/mahskaS08">
+              <i class="fa-xl"
+                ><img src="./images/icon-4.svg" alt="github"
+              /></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/saksham.o_0/profilecard/?igsh=MWU2MW5rOWxmczRybw==">
+              <i class="fa-xl"><img src="./images/icon-3.svg" alt="Instagram" /></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+    <!-- Work Section Container-->
+    <div id="cards" class="work-section"></div>
+    <section id="card-modal" class="modal-container">
+      <div class="modal">
+        <h3 class="work-title" id="modal-title">Tonic</h3>
+        <span onclick="onModalClose()" class="btn-x" draggable="true"
+          >&times;</span
+        >
+
+        <div class="content1">
+          <div class="image-contain fix">
+            <img
+  src="./images/work-img4.png"
+  alt="multi-post work content2"
+  class="work-img"
+  id="modal-img"
+  width="200px"  
+  height="auto"
+/>
+
+          </div>
+          <div class="stack-modal">
+            <p class="title-description" id="modal-desc"></p>
+            <div class="stack-con">
+              <ul id="group-list" class="stack-group"></ul>
+              <div class="stack-group">
+                <a href="" class="btn-modal" id="modal-see-live"
+                  >See live<span
+                    ><img src="./images/export.png" alt="export" /></span
+                ></a>
+                <a class="btn-modal" id="modal-see-source"
+                  >See Source<span
+                    ><img src="./images/github.png" alt="github" /></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="About" class="about-me">
+      <div class="content2">
+        <h1 class="headline-main">About <br />Myself</h1>
+        <p class="headline-paragraph">
+            I can assist you with developing websites, conducting market research, and delivering high-impact projects in both tech and finance. With expertise in development, financial markets, I am passionate about creating efficient systems and analyzing market trends to drive business growth.<br />
+            If you have a project in mind, whether it’s related to financial research, market analysis, or development of tech solutions, feel free to reach out. I’d be excited to collaborate and help bring your ideas to life.
+        </p>
+        <h3 class="headline-connect">LET'S CONNECT</h3>
+
+        <ul class="headline-icons">
+          <li>
+            <a href="https://x.com/saksham_o_0?t=nRIkhJTh3kUhwiHEUCtcWA&s=08">
+              <i class="fa-xl"
+                ><img src="./images/icon-twitter.svg" alt="twitter"
+              /></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/saksham-wadhawan-666805173/">
+              <i class="fa-xl"
+                ><img src="./images/icon-1.svg" alt="linkedin"
+              /></i>
+            </a>
+          </li>
+         
+          <li>
+            <a href="https://github.com/mahskaS08">
+                <i class="fa-xl"
+                  ><img src="./images/icon-4.svg" alt="github"
+                /></i>
+              </a>
+          </li>
+         
+        </ul>
+        <button type="button" class="btn-resume">
+          <a
+            href="https://drive.google.com/file/d/1jIJiyDDQap1TQj6kUCfPZsRx3xySphat/view?usp=sharing"
+            >Get my resume</a
+          >
+        </button>
+      </div>
+
+      <!-- Langauges -->
+      <div class="dev-stacks">
+        <div class="dev-stack">
+          <h3>Languages</h3>
+        </div>
+        <div class="stack-container">
+          <ul class="stack-list">
+            <li class="stack-item">
+              <i class="js fa-brands">
+                <img src="./images/js.png" alt="" />
+              </i>
+              <p>Javascript</p>
+            </li>
+            <li class="stack-item">
+              <i class="js fa-brands">
+                <img src="./images/java.png" alt="" class="izon" />
+              </i>
+              <p>Java</p>
+            </li>
+            <li class="stack-item">
+              <i class="js fa-brands">
+                <img src="./images/html.png" alt="" class="izon" />
+              </i>
+              <p>HTML</p>
+            </li>
+            <li class="stack-item">
+              <i class="html fa-brands">
+                <img src="./images/css-1.png" alt="" />
+              </i>
+              <p>CSS</p>
+            </li>
+          </ul>
+        </div>
+        <div class="dev-stack">
+          <h3>Framework</h3>
+        </div>
+        <div class="stack-container">
+          <ul class="stack-list">
+            <li class="stack-item">
+              <i class="js fa-brands">
+                <img src="./images/react.png" alt="" class="izon" />
+              </i>
+              <p>ReactJs</p>
+            </li>
+            
+            <li class="stack-item">
+              <i class="html fa-brands">
+                <img src="./images/node.png" alt="" class="izon" />
+              </i>
+              <p>Nodejs</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="dev-stack">
+          <h3>DataBase & Version Control</h3>
+        </div>
+        <div class="stack-container">
+          <ul class="stack-list">
+            <li class="stack-item">
+              <i class="js fa-brands">
+                <img src="./images/sql.png" alt="" class="izon" />
+              </i>
+              <p>MySQL</p>
+            </li>
+            <li class="stack-item">
+              <i class="html fa-brands">
+                <img src="./images/mongo.png" alt="" class="izon" />
+              </i>
+              <p>MongoDB</p>
+            </li>
+            <li class="stack-item">
+              <i class="html fa-brands">
+                <img src="./images/git.png" alt="" class="izon" />
+              </i>
+              <p>Git & Github</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Footer and Contact Section -->
+    <footer id="Contact" class="contact-form">
+      <div class="form-info">
+        <h2>Contact me</h2>
+        <p>need some investment advice or just want to say hello ? Feel free to reach out!</p>
+      </div>
+
+      <form
+        action="https://formspree.io/f/xyzyjovd" method="POST"  class="form" id="form" >
+        <label for="name"></label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          required
+          maxlength="30"
+          placeholder="Name"
+        />
+        <label for="email"></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Email"
+        />
+
+        <label for="message"></label>
+        <textarea
+          id="message"
+          class="text-area"
+          name="message"
+          maxlength="500"
+          required
+          placeholder="write your message here"
+        ></textarea>
+        <div></div>
+        <small class="message-detail"></small>
+        <button class="form-btn" type="submit" id="submit-btn">
+          Get in Touch
+        </button>
+      </form>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
